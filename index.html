@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GastroMais | Gastroenterologia e Endoscopia Avançada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gastromais: {
+                            creme: '#FEFDFC',   // O bege da sua logo
+                            gold: '#D0702B',    // O laranja institucional
+                            dark: '#2D241E',    // Marrom quase preto para textos luxuosos
+                            accent: '#F9F6F2',  // Bege mais escuro para alternar seções
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .glass-nav {
+            background: rgba(254, 253, 252, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(208, 112, 43, 0.1);
+        }
+        .text-balance { text-wrap: balance; }
+    </style>
+</head>
+<body class="font-sans bg-gastromais-creme text-gastromais-dark">
+
+    <nav class="fixed w-full z-50 glass-nav">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="flex justify-between items-center h-24">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-gastromais-gold rounded-full flex items-center justify-center text-white shadow-lg">
+                        <span class="font-serif text-2xl font-bold">G</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-serif text-2xl font-bold tracking-tight leading-none text-gastromais-gold">gastromais</span>
+                        <span class="text-[9px] uppercase tracking-[0.2em] font-medium text-gastromais-dark opacity-70">Gastroenterologia & Endoscopia</span>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center gap-10">
+                    <a href="#inicio" class="text-sm font-medium hover:text-gastromais-gold transition-colors">Início</a>
+                    <a href="#sobre" class="text-sm font-medium hover:text-gastromais-gold transition-colors">A Clínica</a>
+                    <a href="#servicos" class="text-sm font-medium hover:text-gastromais-gold transition-colors">Especialidades</a>
+                    <a href="#contato" class="bg-gastromais-gold text-white px-7 py-3 rounded-full text-sm font-semibold hover:bg-gastromais-dark transition-all shadow-md">
+                        Agendar Consulta
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="relative min-h-screen flex items-center pt-24 overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gastromais-accent -z-10 hidden lg:block"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-8">
+                <div class="inline-block px-4 py-1.5 bg-gastromais-gold/10 border border-gastromais-gold/20 rounded-full">
+                    <span class="text-gastromais-gold text-xs font-bold uppercase tracking-widest">Excelência em Criciúma</span>
+                </div>
+                <h1 class="font-serif text-5xl md:text-7xl leading-[1.1] text-balance">
+                    Saúde digestiva com <span class="text-gastromais-gold italic">precisão</span> e acolhimento.
+                </h1>
+                <p class="text-lg text-gray-600 max-w-lg leading-relaxed">
+                    Unimos tecnologia de última geração e atendimento humanizado para cuidar do que é mais importante: seu bem-estar.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contato" class="bg-gastromais-dark text-white px-10 py-5 rounded-full font-bold text-center hover:scale-105 transition-transform shadow-xl">
+                        Agendar via WhatsApp
+                    </a>
+                    <a href="#sobre" class="border border-gastromais-dark text-gastromais-dark px-10 py-5 rounded-full font-bold text-center hover:bg-gastromais-dark hover:text-white transition-all">
+                        Conhecer a Clínica
+                    </a>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="aspect-[4/5] rounded-[40px] overflow-hidden shadow-2xl bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700" alt="Equipamento médico moderno">
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-white p-8 rounded-3xl shadow-2xl hidden md:block border border-gastromais-gold/10">
+                    <div class="text-gastromais-gold font-serif text-4xl font-bold">15+</div>
+                    <div class="text-sm font-bold uppercase tracking-tighter opacity-60">Anos de Experiência</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-gastromais-dark text-gastromais-creme">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid md:grid-cols-3 gap-12 text-center">
+            <div class="space-y-4">
+                <div class="text-gastromais-gold text-5xl font-serif">10k+</div>
+                <h3 class="text-lg font-medium opacity-80 italic">Procedimentos Realizados</h3>
+            </div>
+            <div class="space-y-4 border-y md:border-y-0 md:border-x border-white/10 py-12 md:py-0">
+                <div class="text-gastromais-gold text-5xl font-serif">HD</div>
+                <h3 class="text-lg font-medium opacity-80 italic">Tecnologia de Imagem Avançada</h3>
+            </div>
+            <div class="space-y-4">
+                <div class="text-gastromais-gold text-5xl font-serif">★ ★ ★ ★ ★</div>
+                <h3 class="text-lg font-medium opacity-80 italic">Atendimento Humanizado</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-20 items-center">
+            <div class="order-2 lg:order-1">
+                <div class="relative inline-block mb-10">
+                    <div class="aspect-[3/4] w-80 md:w-96 rounded-[30px] overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71f1536783?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover" alt="Dr. Nome do Pai">
+                    </div>
+                    <div class="absolute -top-10 -right-10 w-40 h-40 bg-gastromais-gold rounded-full -z-10 opacity-10"></div>
+                </div>
+            </div>
+            <div class="order-1 lg:order-2 space-y-6">
+                <h2 class="font-serif text-4xl md:text-5xl">Corpo Clínico</h2>
+                <div class="h-1 w-20 bg-gastromais-gold"></div>
+                <h3 class="text-2xl font-bold text-gastromais-gold">Dr. Nome do Seu Pai</h3>
+                <p class="text-sm uppercase tracking-widest font-bold opacity-60 italic">Gastroenterologista | CRM 00000-SC</p>
+                <div class="space-y-6 text-gray-600 leading-relaxed text-lg">
+                    <p>
+                        Formado pela [Instituição], com especialização em centros de referência, o Dr. [Pai] dedica sua carreira ao diagnóstico precoce de patologias do aparelho digestivo.
+                    </p>
+                    <p>
+                        Seu foco principal é unir a precisão técnica da endoscopia digestiva a um olhar atento que entende as necessidades individuais de cada paciente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-32 bg-gastromais-accent">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+                <h2 class="font-serif text-4xl md:text-5xl">Especialidades</h2>
+                <p class="text-gray-500 italic">Infraestrutura completa para diagnósticos seguros.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="group bg-white p-12 rounded-[30px] shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gastromais-gold/5">
+                    <div class="w-16 h-16 bg-gastromais-accent rounded-2xl flex items-center justify-center mb-10 group-hover:bg-gastromais-gold group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.644.322a6 6 0 01-3.86.517l-2.387-.477a2 2 0 00-1.022.547l-1.16 1.16a2 2 0 001.414 3.414h14.828a2 2 0 001.414-3.414l-1.16-1.16z"></path></svg>
+                    </div>
+                    <h4 class="font-serif text-2xl mb-4">Gastroenterologia</h4>
+                    <p class="text-gray-500 leading-relaxed">Tratamento de doenças do esôfago, estômago, pâncreas, fígado e intestinos.</p>
+                </div>
+
+                <div class="group bg-white p-12 rounded-[30px] shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gastromais-gold/5">
+                    <div class="w-16 h-16 bg-gastromais-accent rounded-2xl flex items-center justify-center mb-10 group-hover:bg-gastromais-gold group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                    </div>
+                    <h4 class="font-serif text-2xl mb-4">Endoscopia</h4>
+                    <p class="text-gray-500 leading-relaxed">Exames de alta definição para diagnóstico preciso e seguro com sedação assistida.</p>
+                </div>
+
+                <div class="group bg-white p-12 rounded-[30px] shadow-sm hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gastromais-gold/5">
+                    <div class="w-16 h-16 bg-gastromais-accent rounded-2xl flex items-center justify-center mb-10 group-hover:bg-gastromais-gold group-hover:text-white transition-colors">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h4 class="font-serif text-2xl mb-4">Prevenção</h4>
+                    <p class="text-gray-500 leading-relaxed">Check-ups preventivos periódicos para manutenção da saúde digestiva e qualidade de vida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="bg-gastromais-dark rounded-[50px] overflow-hidden flex flex-col lg:flex-row shadow-3xl">
+                <div class="lg:w-1/2 p-16 md:p-24 space-y-12">
+                    <div class="space-y-4">
+                        <h2 class="font-serif text-4xl text-white">Agende sua visita</h2>
+                        <p class="text-gray-400">Atendimento humanizado e focado na sua saúde.</p>
+                    </div>
+
+                    <div class="space-y-8">
+                        <div class="flex items-center gap-6 group">
+                            <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-gastromais-gold group-hover:bg-gastromais-gold group-hover:text-white transition-all">
+                                📍
+                            </div>
+                            <div>
+                                <h5 class="text-white font-bold uppercase text-xs tracking-widest mb-1">Localização</h5>
+                                <p class="text-gray-300">Rua Exemplo, 123 - Centro, Criciúma - SC</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-6 group">
+                            <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-gastromais-gold group-hover:bg-gastromais-gold group-hover:text-white transition-all">
+                                💬
+                            </div>
+                            <div>
+                                <h5 class="text-white font-bold uppercase text-xs tracking-widest mb-1">WhatsApp</h5>
+                                <p class="text-gray-300">(48) 99999-9999</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="block w-full bg-gastromais-gold text-white text-center py-6 rounded-2xl font-bold text-lg hover:bg-white hover:text-gastromais-dark transition-all shadow-xl">
+                        Falar com a Recepção agora
+                    </a>
+                </div>
+                
+                <div class="lg:w-1/2 min-h-[400px] bg-gray-100 grayscale hover:grayscale-0 transition-all duration-1000">
+                    <div class="w-full h-full flex items-center justify-center text-gray-400 font-serif italic">
+                        [Mapa Interativo - GastroMais Criciúma]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 bg-gastromais-creme border-t border-gastromais-gold/10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-10">
+            <div class="flex items-center gap-4">
+                <span class="font-serif text-2xl font-bold text-gastromais-gold">gastromais</span>
+            </div>
+            <p class="text-sm text-gray-500 font-medium tracking-tight">
+                © 2026 GastroMais. Todos os direitos reservados.
+            </p>
+            <div class="flex gap-6">
+                <a href="#" class="text-gray-400 hover:text-gastromais-gold transition-colors italic">Instagram</a>
+                <a href="#" class="text-gray-400 hover:text-gastromais-gold transition-colors italic">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
