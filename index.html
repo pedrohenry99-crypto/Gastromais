@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gastromais Criciúma | Dr. Josué Ferreira - Gastroenterologia & Endoscopia</title>
+    
+    <meta property="og:title" content="Gastromais Criciúma | Dr. Josué Ferreira">
+    <meta property="og:description" content="Gastroenterologia e Endoscopia Avançada em Criciúma. Duas décadas dedicadas à sua saúde digestiva.">
+    <meta property="og:image" content="clinica.jpg">
+    <meta property="og:url" content="https://pedrohenry99-crypto.github.io/Gastromais/">
+    <meta property="og:type" content="website">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -27,18 +34,20 @@
             }
         }
     </script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="bg-gastromais-creme text-gastromais-charcoal font-sans antialiased font-light">
+<body class="bg-gastromais-creme text-gastromais-charcoal font-sans antialiased font-light overflow-x-hidden">
 
     <header class="bg-white/80 backdrop-blur-md border-b border-gray-100 fixed w-full top-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-24 items-center">
                 <div class="flex items-center gap-3">
                     <img src="logo.png" alt="Logo Gastromais" class="h-16 w-auto object-contain">
-                    
                     <div class="flex flex-col">
                         <span class="font-serif font-bold text-xl tracking-tight text-gastromais-charcoal">Gastromais</span>
                         <span class="text-[11px] uppercase tracking-widest text-gray-400 font-medium">Criciúma</span>
@@ -53,7 +62,7 @@
                     <a href="#contato" class="text-sm font-semibold text-gray-600 hover:text-gastromais-orange transition-colors">Contato</a>
                 </nav>
                 <div class="hidden md:flex">
-                    <a href="https://wa.me/5548991821365" target="_blank" class="bg-gastromais-charcoal hover:bg-gastromais-orange text-white text-xs uppercase tracking-widest px-6 py-3.5 rounded-none font-bold transition-all duration-300 shadow-sm">
+                    <a href="https://wa.me/5548991821365?text=Olá!%20Gostaria%20de%20solicitar%20um%20agendamento%20na%20GastroMais." target="_blank" class="bg-gastromais-charcoal hover:bg-gastromais-orange text-white text-xs uppercase tracking-widest px-6 py-3.5 rounded-none font-bold transition-all duration-300 shadow-sm">
                         Agendar Consulta
                     </a>
                 </div>
@@ -64,7 +73,7 @@
     <section id="inicio" class="relative pt-36 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-gradient-to-b from-gastromais-sand to-gastromais-creme">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-7 text-left">
+                <div class="lg:col-span-7 text-left" data-aos="fade-right" data-aos-duration="1000">
                     <span class="text-xs uppercase tracking-widest text-gastromais-orange font-bold mb-3 block">Gastroenterologia & Endoscopia Avançada</span>
                     <h1 class="font-serif text-4xl md:text-6xl font-bold tracking-tight text-gastromais-charcoal leading-[1.1] mb-6">
                         Duas décadas dedicadas à sua saúde digestiva.
@@ -73,7 +82,7 @@
                         Sob a condução técnica do <strong>Dr. Josué Ferreira</strong>, a Gastromais une tradição clínica, atualização científica internacional e tecnologia diagnóstica em Criciúma.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="https://wa.me/5548991821365" target="_blank" class="inline-block bg-gastromais-orange hover:bg-gastromais-orangeHover text-white px-8 py-4 text-sm uppercase tracking-widest font-bold transition-all duration-300 text-center shadow-lg shadow-gastromais-orange/20">
+                        <a href="https://wa.me/5548991821365?text=Olá!%20Gostaria%20de%20solicitar%20um%20agendamento%20na%20GastroMais." target="_blank" class="inline-block bg-gastromais-orange hover:bg-gastromais-orangeHover text-white px-8 py-4 text-sm uppercase tracking-widest font-bold transition-all duration-300 text-center shadow-lg shadow-gastromais-orange/20">
                             Fale no WhatsApp
                         </a>
                         <a href="#sobre" class="inline-block bg-transparent hover:bg-gastromais-charcoal/5 border border-gastromais-charcoal/20 text-gastromais-charcoal px-8 py-4 text-sm uppercase tracking-widest font-bold transition-all duration-300 text-center">
@@ -81,44 +90,38 @@
                         </a>
                     </div>
                 </div>
-                <div class="lg:col-span-5 relative">
+                <div class="lg:col-span-5 relative" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     <div class="absolute inset-0 bg-gastromais-orange/5 translate-x-4 translate-y-4 rounded-none z-0"></div>
-                    <div class="bg-gray-200 border border-gastromais-charcoal/10 aspect-[4/5] w-full relative z-10 shadow-2xl flex items-center justify-center group overflow-hidden">
-                        <span class="text-gray-400 font-medium tracking-wider uppercase text-xs"><div class="lg:col-span-5 relative">
-    <div class="absolute inset-0 bg-gastromais-orange/5 translate-x-4 translate-y-4 rounded-none z-0"></div>
-    <div class="border border-gastromais-charcoal/10 aspect-[4/5] w-full relative z-10 shadow-2xl overflow-hidden bg-gray-100">
-        <img src="clinica.jpg" alt="Clínica GastroMais" class="w-full h-full object-cover">
-    </div>
-</div></span>
+                    <div class="border border-gastromais-charcoal/10 aspect-[4/5] w-full relative z-10 shadow-2xl overflow-hidden bg-gray-100">
+                        <img src="clinica.jpg" alt="Clínica GastroMais" class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="sobre" class="py-24 bg-white border-y border-gray-100">
+    <section id="sobre" class="py-24 bg-white border-y border-gray-100 overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
                 
-                <div class="lg:col-span-4 lg:sticky lg:top-32 text-center lg:text-left">
-                    <div class="bg-gastromais-sand aspect-square w-full mb-6 shadow-sm border border-gray-200/50 flex items-center justify-center">
-                        <span class="text-gray-400 font-medium tracking-wider uppercase text-xs"><div class="aspect-square w-full mb-6 shadow-sm border border-gray-200/50 overflow-hidden bg-gastromais-sand">
-    <img src="dr-josue.jpeg" alt="Dr. Josué Ferreira" class="w-full h-full object-cover">
-</div></span>
+                <div class="lg:col-span-4 lg:sticky lg:top-32 text-center lg:text-left" data-aos="fade-up">
+                    <div class="aspect-square w-full mb-6 shadow-sm border border-gray-200/50 overflow-hidden bg-gastromais-sand">
+                        <img src="dr-josue.jpeg" alt="Dr. Josué Ferreira" class="w-full h-full object-cover object-top">
                     </div>
                     <h2 class="font-serif text-3xl font-bold text-gastromais-charcoal">Dr. Josué Ferreira</h2>
-                    <p class="text-gastromais-orange font-semibold tracking-wide text-sm mt-1 mb-3">Gastroenterologia e Endoscopia Digestiva</p>
+                    <p class="text-gastromais-orange font-semibold tracking-wide text-sm mt-1 mb-1">Gastroenterologia e Endoscopia Digestiva</p>
+                    <p class="text-gray-400 font-medium text-xs tracking-wider uppercase mb-3">CRM/SC 10294 | RQE 5010</p>
                     <div class="inline-block bg-gastromais-charcoal text-white text-[10px] uppercase font-bold tracking-widest px-3 py-1">
                         Gastromais Criciúma LTDA
                     </div>
                 </div>
 
                 <div class="lg:col-span-8">
-                    <h3 class="font-serif text-2xl font-bold mb-8 pb-4 border-b border-gray-100 text-gastromais-charcoal">Trajetória e Consolidação</h3>
+                    <h3 class="font-serif text-2xl font-bold mb-8 pb-4 border-b border-gray-100 text-gastromais-charcoal" data-aos="fade-up">Trajetória e Consolidação</h3>
                     
                     <div class="relative border-l-2 border-gastromais-sand pl-6 ml-2 space-y-12">
                         
-                        <div class="relative">
+                        <div class="relative" data-aos="fade-up" data-aos-delay="100">
                             <div class="absolute -left-[33px] top-0 bg-gastromais-charcoal w-4 h-4 rounded-full border-4 border-white shadow-sm"></div>
                             <span class="font-serif text-xl font-bold text-gastromais-charcoal block mb-2">Formação Acadêmica — UFRJ</span>
                             <p class="text-gray-600 font-light leading-relaxed">
@@ -126,7 +129,7 @@
                             </p>
                         </div>
 
-                        <div class="relative">
+                        <div class="relative" data-aos="fade-up" data-aos-delay="200">
                             <div class="absolute -left-[33px] top-0 bg-gastromais-orange w-4 h-4 rounded-full border-4 border-white shadow-sm"></div>
                             <span class="font-serif text-xl font-bold text-gastromais-orange block mb-2">2002 — Início em Criciúma</span>
                             <p class="text-gray-600 font-light leading-relaxed">
@@ -134,7 +137,7 @@
                             </p>
                         </div>
 
-                        <div class="relative">
+                        <div class="relative" data-aos="fade-up" data-aos-delay="300">
                             <div class="absolute -left-[33px] top-0 bg-gastromais-charcoal w-4 h-4 rounded-full border-4 border-white shadow-sm"></div>
                             <span class="font-serif text-xl font-bold text-gastromais-charcoal block mb-2">2002 a 2012 — Consolidação e Parcerias</span>
                             <p class="text-gray-600 font-light leading-relaxed">
@@ -142,7 +145,7 @@
                             </p>
                         </div>
 
-                        <div class="relative">
+                        <div class="relative" data-aos="fade-up" data-aos-delay="400">
                             <div class="absolute -left-[33px] top-0 bg-gastromais-charcoal w-4 h-4 rounded-full border-4 border-white shadow-sm"></div>
                             <span class="font-serif text-xl font-bold text-gastromais-charcoal block mb-2">2002 a 2016 — Atuação Hospitalar e Docência</span>
                             <p class="text-gray-600 font-light leading-relaxed">
@@ -150,7 +153,7 @@
                             </p>
                         </div>
 
-                        <div class="relative">
+                        <div class="relative" data-aos="fade-up" data-aos-delay="500">
                             <div class="absolute -left-[33px] top-0 bg-gastromais-charcoal w-4 h-4 rounded-full border-4 border-white shadow-sm"></div>
                             <span class="font-serif text-xl font-bold text-gastromais-charcoal block mb-2">2004 — Presente — Responsabilidade Técnica Unimed</span>
                             <p class="text-gray-600 font-light leading-relaxed">
@@ -158,7 +161,7 @@
                             </p>
                         </div>
 
-                        <div class="relative">
+                        <div class="relative" data-aos="fade-up" data-aos-delay="600">
                             <div class="absolute -left-[33px] top-0 bg-gastromais-orange w-4 h-4 rounded-full border-4 border-white shadow-sm"></div>
                             <span class="font-serif text-xl font-bold text-gastromais-orange block mb-2">2012 — Expansão e Fundação Gastromais</span>
                             <p class="text-gray-600 font-light leading-relaxed">
@@ -172,7 +175,7 @@
     </section>
 
     <section id="diferencial" class="py-24 bg-gastromais-goldLight relative overflow-hidden">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10" data-aos="zoom-in" data-aos-duration="800">
             <div class="w-12 h-[2px] bg-gastromais-orange mx-auto mb-6"></div>
             <span class="text-xs uppercase tracking-widest text-gastromais-orange font-bold block mb-3">Vanguarda Diagnóstica Internacional</span>
             <h2 class="font-serif text-3xl md:text-4xl font-bold text-gastromais-charcoal mb-8 max-w-3xl mx-auto">
@@ -183,17 +186,17 @@
             </p>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto text-left mb-12">
-                <div class="bg-white p-6 border border-gray-100 shadow-sm">
+                <div class="bg-white p-6 border border-gray-100 shadow-sm" data-aos="fade-right" data-aos-delay="200">
                     <span class="text-xs text-gastromais-orange font-bold uppercase tracking-wider block mb-1">Milão, Itália</span>
                     <h4 class="font-serif font-bold text-gray-800">Hospital IRCCS San Raffaele</h4>
                 </div>
-                <div class="bg-white p-6 border border-gray-100 shadow-sm">
+                <div class="bg-white p-6 border border-gray-100 shadow-sm" data-aos="fade-left" data-aos-delay="300">
                     <span class="text-xs text-gastromais-orange font-bold uppercase tracking-wider block mb-1">Bolonha, Itália</span>
                     <h4 class="font-serif font-bold text-gray-800">Policlinico Ospedale Sant’Orsola-Malpighi</h4>
                 </div>
             </div>
 
-            <div class="bg-white/60 backdrop-blur-sm p-8 rounded-none border border-gastromais-orange/10 max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+            <div class="bg-white/60 backdrop-blur-sm p-8 rounded-none border border-gastromais-orange/10 max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-center" data-aos="fade-up" data-aos-delay="400">
                 <div>
                     <h5 class="font-bold text-gastromais-charcoal mb-1">Sem Radiação</h5>
                     <p class="text-xs text-gray-500">Exame totalmente seguro e repetível.</p>
@@ -210,9 +213,9 @@
         </div>
     </section>
 
-    <section id="servicos" class="py-24 bg-gastromais-sand">
+    <section id="servicos" class="py-24 bg-gastromais-sand overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
+            <div class="text-center mb-16" data-aos="fade-up">
                 <span class="text-xs uppercase tracking-widest text-gastromais-orange font-bold block mb-2">O que fazemos</span>
                 <h2 class="font-serif text-4xl font-bold text-gastromais-charcoal">Procedimentos e Especialidades</h2>
                 <div class="w-16 h-[2px] bg-gastromais-orange mx-auto mt-4"></div>
@@ -220,38 +223,38 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
-                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300">
+                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
                     <div class="text-gastromais-orange font-serif text-2xl font-bold mb-4">01</div>
                     <h4 class="font-serif font-bold text-xl text-gastromais-charcoal mb-3">Endoscopia Digestiva Alta</h4>
                     <p class="text-gray-500 text-sm font-light leading-relaxed">Exame essencial para investigação de esôfago, estômago e duodeno, com diagnóstico por imagem de alta resolução.</p>
                 </div>
 
-                <div class="bg-white p-8 border-2 border-gastromais-orange shadow-md relative">
+                <div class="bg-white p-8 border-2 border-gastromais-orange shadow-md relative" data-aos="fade-up" data-aos-delay="200">
                     <span class="absolute top-4 right-4 bg-gastromais-orange text-white text-[9px] uppercase tracking-widest font-bold px-2 py-0.5">Pioneirismo</span>
                     <div class="text-gastromais-orange font-serif text-2xl font-bold mb-4">02</div>
                     <h4 class="font-serif font-bold text-xl text-gastromais-charcoal mb-3">Ultrassom Intestinal</h4>
                     <p class="text-gray-600 text-sm font-light leading-relaxed">Ultrassonografia avançada das alças intestinais, focada no acompanhamento não invasivo de Crohn e Retocolite.</p>
                 </div>
 
-                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300">
+                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
                     <div class="text-gastromais-orange font-serif text-2xl font-bold mb-4">03</div>
                     <h4 class="font-serif font-bold text-xl text-gastromais-charcoal mb-3">Colonoscopia</h4>
                     <p class="text-gray-500 text-sm font-light leading-relaxed">Avaliação completa do intestino grosso, fundamental para a prevenção do câncer colorretal e exames diagnósticos.</p>
                 </div>
 
-                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300">
+                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-delay="400">
                     <div class="text-gastromais-orange font-serif text-2xl font-bold mb-4">04</div>
                     <h4 class="font-serif font-bold text-xl text-gastromais-charcoal mb-3">Cápsula Endoscópica</h4>
                     <p class="text-gray-500 text-sm font-light leading-relaxed">Tecnologia avançada de filmagem por ingestão de cápsula, mapeando áreas complexas do intestino delgado.</p>
                 </div>
 
-                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300">
+                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-delay="500">
                     <div class="text-gastromais-orange font-serif text-2xl font-bold mb-4">05</div>
                     <h4 class="font-serif font-bold text-xl text-gastromais-charcoal mb-3">Intervenções Ressectivas</h4>
                     <p class="text-gray-500 text-sm font-light leading-relaxed">Procedimentos cirúrgicos endoscópicos avançados: Polipectomias, Mucosectomias e Dissecção Submucosa (ESD).</p>
                 </div>
 
-                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300">
+                <div class="bg-white p-8 border border-gray-200/40 shadow-sm hover:shadow-md transition-all duration-300" data-aos="fade-up" data-aos-delay="600">
                     <div class="text-gastromais-orange font-serif text-2xl font-bold mb-4">06</div>
                     <h4 class="font-serif font-bold text-xl text-gastromais-charcoal mb-3">Dilatações & Plasma de Argônio</h4>
                     <p class="text-gray-500 text-sm font-light leading-relaxed">Tratamentos endoscópicos de estenoses e terapias de coagulação por plasma de argônio para sangramentos e lesões vascularizadas.</p>
@@ -261,9 +264,9 @@
         </div>
     </section>
 
-    <section id="contato" class="py-24 bg-white">
+    <section id="contato" class="py-24 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gastromais-charcoal text-white grid grid-cols-1 lg:grid-cols-12 shadow-2xl overflow-hidden">
+            <div class="bg-gastromais-charcoal text-white grid grid-cols-1 lg:grid-cols-12 shadow-2xl overflow-hidden" data-aos="fade-up" data-aos-duration="1000">
                 
                 <div class="lg:col-span-6 p-12 md:p-16 flex flex-col justify-between">
                     <div>
@@ -296,10 +299,10 @@
                     </a>
                 </div>
 
-                <div class="lg:col-span-6 min-h-[400px] w-full border-t lg:border-t-0 lg:border-l border-gray-700/30">
+                <div class="lg:col-span-6 min-h-[400px] w-full border-t lg:border-t-0 lg:border-l border-gray-700/30 relative">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d176900.0955475019!2d-49.29099242528976!3d-28.73052619692365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6a62ceb0cfd63ca3%3A0x5cdfce59fe1f9227!2sGastromais%20Crici%C3%BAma%20LTDA!5e0!3m2!1spt-BR!2sbr!4v1779883191676!5m2!1spt-BR!2sbr" 
-                        class="w-full h-full min-h-[400px] border-0" 
+                        class="absolute inset-0 w-full h-full border-0" 
                         allowfullscreen="" 
                         loading="lazy" 
                         referrerpolicy="no-referrer-when-downgrade">
@@ -311,15 +314,40 @@
     </section>
 
     <footer class="bg-gastromais-charcoal/5 py-12 border-t border-gray-200/50">
-        <div class="max-w-7xl mx-auto px-4 text-center sm:flex sm:justify-between sm:text-left">
-            <p class="text-xs text-gray-500 font-medium">
-                © 2026 Gastromais Criciúma LTDA. Responsável Técnico: Dr. Josué Ferreira — CRM/SC.
-            </p>
-            <p class="text-xs text-gray-400 font-medium mt-3 sm:mt-0">
-                Desenvolvimento e Arquitetura Digital.
-            </p>
+        <div class="max-w-7xl mx-auto px-4 sm:flex sm:justify-between sm:items-center">
+            <div class="text-center sm:text-left">
+                <p class="text-xs text-gray-500 font-medium">
+                    © 2026 Gastromais Criciúma LTDA. Diretor Técnico: Dr. Josué Ferreira
+                </p>
+                <p class="text-xs text-gray-400 font-medium mt-1">
+                    CRM/SC 10294 | RQE 5010
+                </p>
+            </div>
+            
+            <div class="mt-6 sm:mt-0 flex justify-center sm:justify-end">
+                <a href="https://instagram.com/gastromaiscri" target="_blank" class="flex items-center gap-2 text-sm text-gray-500 hover:text-gastromais-orange transition-colors font-medium">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+                    </svg>
+                    @gastromaiscri
+                </a>
+            </div>
         </div>
     </footer>
 
+    <a href="https://wa.me/5548991821365?text=Olá!%20Gostaria%20de%20solicitar%20um%20agendamento%20na%20GastroMais." target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 z-[100] flex items-center justify-center group" aria-label="Fale conosco no WhatsApp">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true, // A animação acontece só uma vez ao rolar para baixo
+            duration: 800, // Duração de quase 1 segundo para ficar suave
+            offset: 100 // Começa a animar quando o elemento está 100px dentro da tela
+        });
+    </script>
 </body>
 </html>
